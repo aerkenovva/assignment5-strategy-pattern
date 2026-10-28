@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class MultiplyStrategy implements OperationStrategy {
 
-public class MultiplyStrategy {
+    @Override
+    public double execute(double a, double b) {
+        return a * b;
+    }
 }

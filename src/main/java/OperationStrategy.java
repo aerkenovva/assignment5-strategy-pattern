@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class OperationStrategy {
+public interface OperationStrategy {
+    double execute(double a, double b);
 }
